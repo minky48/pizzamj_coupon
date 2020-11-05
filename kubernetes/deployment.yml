@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: coupon
-          image: username/coupon:latest
+          image: admin13.azurecr.io/coupon:latest
           ports:
             - containerPort: 8080
           readinessProbe:
